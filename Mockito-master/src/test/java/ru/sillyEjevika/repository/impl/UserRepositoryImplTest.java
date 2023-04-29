@@ -9,13 +9,13 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class UserRepositoryImplTest {
+ class UserRepositoryImplTest {
     private static final User VALID_USER = new User("Vika");
-    private static final User INVALID_USER = new User("Vikiwna");
+    private static final User INVALID_USER = new User("Allaa");
     private static final List<User> users = List.of(
             VALID_USER,
             new User("Viktoria"),
-            new User("Vikki")
+            new User("Vikiwna")
     );
     private static final UserRepository userRepository = new UserRepositoryImpl();
 
