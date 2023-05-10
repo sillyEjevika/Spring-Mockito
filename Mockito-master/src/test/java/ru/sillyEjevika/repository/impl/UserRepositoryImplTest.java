@@ -31,8 +31,7 @@ import static org.junit.jupiter.api.Assertions.*;
         assertNull(userRepository.getUserByName(INVALID_USER.getName()));
     }
 
-    // Тесты от себя
-    @Test
+       @Test
     @DisplayName("Возвращает список с пользователями")
     void shouldGetUsersList() {
         assertEquals(users, userRepository.getAllUsers());
